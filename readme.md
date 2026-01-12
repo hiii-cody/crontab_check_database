@@ -23,14 +23,16 @@ Date: 2026-01-12
 
 - 將 check_db.sh 拷貝到 /usr/local/bin/
 - 輸入 crontab -e
-  > - - - - - /usr/local/bin/check_db.sh
 
-#### 對應 分鐘 小時 日 月 星期
+* - - - - /usr/local/bin/check_db.sh
+
+#### 設定時程
+
+**對應格式: 分鐘 小時 日 月 星期**
+
+5-7 \* \* \* \* /usr/local/bin/check_db.sh
 
 因為我需要針對 5-7 這個時間段進行檢查，所以設定為
-
-5-7 \* \* \* /usr/local/bin/check_db.sh
-
 這樣每天的 5-7 都會執行一次 check_db.sh
 
 #### 重啟 crontab
