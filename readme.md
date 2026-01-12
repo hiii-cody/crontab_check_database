@@ -29,8 +29,9 @@ Date: 2026-01-12
 
 因為我需要針對 5-7 這個時間段進行檢查，所以設定為
 
-- 5-7 \* \* \* /usr/local/bin/check_db.sh
-  這樣每天的 5-7 都會執行一次 check_db.sh
+5-7 \* \* \* /usr/local/bin/check_db.sh
+
+這樣每天的 5-7 都會執行一次 check_db.sh
 
 #### 重啟 crontab
 
