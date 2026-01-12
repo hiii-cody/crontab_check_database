@@ -28,7 +28,8 @@ Date: 2026-01-12
 
 #### 設定時程
 
-可參考 refer: https://linux.vbird.org/linux_basic/centos7/0430cron.php#whatiscron_type
+可參考: https://linux.vbird.org/linux_basic/centos7/0430cron.php#whatiscron_type 針對 crontab 的格式說明
+
 **對應格式: 分鐘 小時 日 月 星期**
 
 \* 5-7 \* \* \* /usr/local/bin/check_db.sh
