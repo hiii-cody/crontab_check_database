@@ -24,7 +24,7 @@ Date: 2026-01-12
 - 將 check_db.sh 拷貝到 /usr/local/bin/
 - 輸入 crontab -e
 
-\* \* \* \* \* /usr/local/bin/check_db.sh
+> \* \* \* \* \* /usr/local/bin/check_db.sh
 
 #### 設定時程
 
